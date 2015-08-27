@@ -20,8 +20,8 @@ impl cookies::KeyProvider for ServerData {
     fn key(&self) -> cookies::SecretKey { SECRET_KEY.clone() }
 }
 
-impl SessionStore for ServerData {
-    type Store = Option<String>;
+impl session::Store for ServerData {
+    type Session = Option<String>;
 
     fn timeout() -> Duration {
         Duration::seconds(5)
