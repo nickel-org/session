@@ -1,10 +1,13 @@
 #[macro_use] extern crate nickel;
+extern crate nickel_session as session;
+extern crate nickel_cookies as cookies;
 extern crate rustc_serialize;
 extern crate time;
 
 use std::io::Write;
 use nickel::*;
 use nickel::status::StatusCode;
+use session::{Session, CookieSession};
 use time::Duration;
 
 #[derive(RustcDecodable, RustcEncodable)]

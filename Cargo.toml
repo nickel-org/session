@@ -1,0 +1,21 @@
+[package]
+name = "nickel_session"
+version = "0.1.0"
+authors = ["Kevin Butler <haqkrs@gmail.com>"]
+
+[dependencies]
+typemap = "*"
+plugin = "*"
+rustc-serialize = "*"
+time = "*"
+cookie = "^0.1"
+byteorder = "*"
+
+[dependencies.nickel]
+version = "^0.6"
+git = "https://github.com/nickel-org/nickel.rs"
+
+[dependencies.nickel_cookies]
+version = "^0.1"
+features = ["secure"]
+git = "https://github.com/nickel-org/cookies"

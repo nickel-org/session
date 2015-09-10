@@ -1,4 +1,5 @@
-use {Request, Response, Cookies, cookies};
+use nickel::{Request, Response};
+use nickel_cookies::{cookies, Cookies};
 use cookie::Cookie;
 use plugin::{Plugin, Pluggable};
 use typemap::Key;
