@@ -10,10 +10,7 @@ rustc-serialize = "*"
 time = "*"
 cookie = "^0.1"
 byteorder = "*"
-
-[dependencies.nickel]
-version = "^0.6"
-git = "https://github.com/nickel-org/nickel.rs"
+nickel = "^0.7"
 
 [dependencies.nickel_cookies]
 version = "^0.1"
