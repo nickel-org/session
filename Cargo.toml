@@ -11,9 +11,9 @@ typemap = "*"
 plugin = "*"
 rustc-serialize = "*"
 time = "*"
-cookie = "^0.1"
+cookie = "^0.2"
 byteorder = "*"
-nickel = "^0.7"
+nickel = "^0.8"
 
 [dependencies.nickel_cookies]
 version = "^0.1"
