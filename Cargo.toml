@@ -7,15 +7,14 @@ license = "MIT"
 repository = "https://github.com/nickel-org/session"
 
 [dependencies]
-typemap = "*"
-plugin = "*"
-rustc-serialize = "*"
-time = "*"
+typemap = "0.3"
+plugin = "0.2"
+rustc-serialize = "0.3"
+time = "0.1"
 cookie = "^0.2"
-byteorder = "*"
+byteorder = "0.5"
 nickel = "^0.8"
 
 [dependencies.nickel_cookies]
 version = "^0.1"
 features = ["secure"]
-git = "https://github.com/nickel-org/cookies"
